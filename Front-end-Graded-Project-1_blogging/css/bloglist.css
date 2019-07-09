@@ -62,3 +62,13 @@ body {
     width: 100%;
 
 }
+.trash{
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top:10px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom:5px;
+    font-size: 30px;
+}
