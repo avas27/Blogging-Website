@@ -12,24 +12,64 @@
 <body>
     <div id="main-container-div">
         <div class="header">
-                                
-            <!-- Insert code for Sign Up, Sign In button here. 
-                 Add code for "ScriBBler" heading and the sub-heading -->
-
+        <!-- contains header which includes ScriBBler text, sub-heading, Sign In and Sign Up buttons -->
+                    <span class="main-heading">ScriBBler</span>
+                    <span class="heading-button">
+                        <button id="signIn">Sign In</button>
+                        <button id="signUp">Sign Up</button>
+                    </span> 
+                    <br>
+                    <span class="sub-heading">Explore, Imagine, Create</span>
         </div>
-    </div>
-    <div>
-
-        <!-- Insert code for Sign In modal here -->
-
-    </div>
-
-    <div>
-
-        <!-- Insert code for Sign Up modal here -->
-
-    </div>
-
+        </div>
+        
+        <div>
+        <div class="container">
+        <!-- contains Sign In modal codes -->
+            <div id="signInModal" class="modal">
+                    <span id="close1">&times;</span>
+                    <h1>Welcome Back!</h1>
+                    <label for="userName">Username</label>
+                    <input type="text" id="userName" placeholder="Enter Username" required>
+                    <br>
+                    <br>
+                    <label for="password">Password</label>
+                    <input type="password" id="password"  placeholder="Enter Password" required>
+                    <br>
+                    <br>
+                    <button>Sign In</button>
+                    <h5>Not a member? <a href="#signUpModal" id="newSignUp">Sign Up</a></h5>
+            </div>
+        </div>
+        </div>
+        
+        <div>
+        <div class="container">
+        <!-- contains Sign Up modal codes -->
+            <div id="signUpModal" class="modal">
+                    <span id="close2">&times;</span>
+                    <h1>Get Started</h1>
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Enter Full Name" required>
+                    <br>
+                    <br>
+                    <label for="userNameNew">Username</label>
+                    <input type="text" id="userNameNew" placeholder="Enter Username" required>
+                    <br>
+                    <br>
+                    <label for="passwordNew">Password</label>
+                    <input type="password" id="passwordNew"  placeholder="Enter Password" required>
+                    <br>
+                    <br>
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword"  placeholder="Confirm Password" required>
+                    <br>
+                    <br>
+                    <button>Sign Up</button>
+            </div>
+        </div>
+        </div>
+        
     <div class="allPostsContainer">
     <div class="post">
         <div class="post-left">
