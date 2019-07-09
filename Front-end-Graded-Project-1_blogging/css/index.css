@@ -9,6 +9,23 @@ body{
    overflow:hidden;
    display: block;
 } 
+.postButtons{
+   position:fixed;
+   left:50%;
+   top:50%;
+   transform:translate(-50%, 0);
+}
+.postButtons button{
+   background-color:orange;
+   border:2px solid white; 
+   border-radius:10px;
+   font-weight:bold; 
+   padding:10px; 
+}
+.postButtons button:hover{
+   background-color:green;
+   color:white;
+   cursor: pointer;
+}
 
-/* Set a style for the rest of the elements besides the header elements on the index.html page */
                                  
