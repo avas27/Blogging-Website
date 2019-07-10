@@ -38,4 +38,10 @@
     box-shadow: 10px 0px 10px #F1948A;
     margin-bottom:10px;
 }
+input[type="text"]{
+    width:745px;
+    height:50px;
+    margin:20px 0 10px 0;
+    font-size:15px;
+}
 
