@@ -2,7 +2,7 @@ var editButton=document.getElementById("editPost");
 var likeButton=document.getElementById("like");
 var commentButton=document.getElementById("comment");
 let count=1;
-editButton.onclick=function()
+editButton.onclick=function() //makes content editable on clicking edit button on post page
     {   
 
         var butText=document.getElementById("editPost").innerText;
@@ -26,7 +26,7 @@ editButton.onclick=function()
         }
     }
 
-likeButton.onclick=function()
+likeButton.onclick=function() //shows no. of people likes post on clicking like button on post page
     {
         if(count===1)
         {
@@ -41,7 +41,7 @@ likeButton.onclick=function()
         count++;
     }
 
-commentButton.onclick=function addComments()
+commentButton.onclick=function addComments() //adds comment in comment area  
     {
         var commentValue = document.getElementById('userComment').value;
         let commentContent = document.getElementById('commentArea').innerHTML;
