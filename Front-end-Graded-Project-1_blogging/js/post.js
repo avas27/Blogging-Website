@@ -1,4 +1,7 @@
 var editButton=document.getElementById("editPost");
+var likeButton=document.getElementById("like");
+var count=1;
+
 editButton.onclick=function()
     {   
 
@@ -21,4 +24,19 @@ editButton.onclick=function()
             blogBody.style.border="none";   
             document.getElementById("editPost").innerHTML="Edit <i class='fa fa-pencil-square-o' aria-hidden='true'></i>";
         }
+    }
+
+likeButton.onclick=function()
+    {
+        if(count===1)
+        {
+            document.getElementById("likeText").innerHTML="1 person likes this!";
+        }
+        else if(count>1)
+        {
+            document.getElementById("likeText").innerHTML=count+" people have liked this!"; 
+        }
+
+        document.getElementById("like").innerHTML="<i class='fa fa-thumbs-up' aria-hidden='true'></i> Liked!";
+        count++;
     }

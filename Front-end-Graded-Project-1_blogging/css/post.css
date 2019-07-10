@@ -34,4 +34,8 @@
     cursor: pointer;
     height:auto;
 }
+#like{
+    box-shadow: 10px 0px 10px #F1948A;
+    margin-bottom:10px;
+}
 
