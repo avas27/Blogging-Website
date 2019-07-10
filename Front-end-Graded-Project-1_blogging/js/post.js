@@ -1,5 +1,6 @@
 var editButton=document.getElementById("editPost");
 var likeButton=document.getElementById("like");
+var commentButton=document.getElementById("comment");
 var count=1;
 
 editButton.onclick=function()
@@ -39,4 +40,13 @@ likeButton.onclick=function()
 
         document.getElementById("like").innerHTML="<i class='fa fa-thumbs-up' aria-hidden='true'></i> Liked!";
         count++;
+    }
+
+commentButton.onclick=function addComments()
+    {
+        var commentValue = document.getElementById('userComment').value;
+        let commentContent = document.getElementById('commentArea').innerHTML;
+        document.getElementById('commentArea').innerHTML='<p>'+commentValue+'</p>';
+        document.getElementById('commentArea').innerHTML +=commentContent;
+        document.getElementById('userComment').value='';         
     }

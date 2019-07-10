@@ -2,14 +2,15 @@
     font-size: 150%;
     font-family: 'Abel', sans-serif;
     font-weight: bold;
+    text-align:center;
 }
 .blogText {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-.blogContent{
-    margin:100px 25px 25px 25px;
-    word-spacing:3px; 
+#blogBody 
+{
+    text-align:justify;
 }
 .blogAuthor {
     padding: 0px 0px 0px 10px;
@@ -34,6 +35,10 @@
     cursor: pointer;
     height:auto;
 }
+#comment{
+    background-color:red;
+    box-shadow: 10px 0px 10px #F1948A; 
+}
 #like{
     box-shadow: 10px 0px 10px #F1948A;
     margin-bottom:10px;
@@ -43,5 +48,17 @@ input[type="text"]{
     height:50px;
     margin:20px 0 10px 0;
     font-size:15px;
+}
+.comment{
+    width:710px;
+    height:auto;
+    padding:20px;
+    background-color:gray; 
+}
+#commentArea p{
+    padding:5px;
+    background-color:white;
+    color:black;
+  
 }
 
