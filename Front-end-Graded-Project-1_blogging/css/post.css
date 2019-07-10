@@ -17,7 +17,21 @@
     font-size: 30px;
 }
 .blogContent{
-
+    margin:100px 25px 25px 25px;
+    word-spacing:3px; 
+}
+#editPost{
+    float:right;
+}
+.allButtons{
+    background-color:#D90A52;
+    border:none;
+    color:white;
+    font-size:15px;
+    padding:10px;
+    font-weight:bold; 
+    box-shadow: 0px 10px 10px #F1948A;
+    cursor: pointer;
+    height:auto;
 }
 
-/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
