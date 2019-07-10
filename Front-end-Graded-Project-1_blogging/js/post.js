@@ -1,8 +1,7 @@
 var editButton=document.getElementById("editPost");
 var likeButton=document.getElementById("like");
 var commentButton=document.getElementById("comment");
-var count=1;
-
+let count=1;
 editButton.onclick=function()
     {   
 
