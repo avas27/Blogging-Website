@@ -27,5 +27,8 @@ body{
    color:white;
    cursor: pointer;
 }
+#createPostButton{
+   margin-top: 15px;
+}
 
                                  
